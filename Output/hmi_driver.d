@@ -1,0 +1,11 @@
+.\output\hmi_driver.o: UartScreen\hmi_driver.c
+.\output\hmi_driver.o: UartScreen\hmi_driver.h
+.\output\hmi_driver.o: .\System\sys\sys.h
+.\output\hmi_driver.o: .\System\sys\stm32f10x_map.h
+.\output\hmi_driver.o: .\System\sys\stm32f10x_conf.h
+.\output\hmi_driver.o: .\System\sys\stm32f10x_type.h
+.\output\hmi_driver.o: .\System\sys\cortexm3_macro.h
+.\output\hmi_driver.o: .\System\sys\stm32f10x_nvic.h
+.\output\hmi_driver.o: .\HardWare\uart2.h
+.\output\hmi_driver.o: .\System\delay\delay.h
+.\output\hmi_driver.o: D:\Keil\ARM\ARMCC\bin\..\include\stdio.h

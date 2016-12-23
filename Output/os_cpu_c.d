@@ -1,0 +1,16 @@
+.\output\os_cpu_c.o: Ucosii\PORT\os_cpu_c.c
+.\output\os_cpu_c.o: .\Ucosii\CONFIG\includes.h
+.\output\os_cpu_c.o: D:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\os_cpu_c.o: D:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\output\os_cpu_c.o: D:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\output\os_cpu_c.o: D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\os_cpu_c.o: D:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\output\os_cpu_c.o: .\Ucosii\CORE\ucos_ii.h
+.\output\os_cpu_c.o: .\Ucosii\CONFIG\includes.h
+.\output\os_cpu_c.o: .\Ucosii\CONFIG\os_cfg.h
+.\output\os_cpu_c.o: .\Ucosii\PORT\os_cpu.h
+.\output\os_cpu_c.o: .\System\sys\stm32f10x_map.h
+.\output\os_cpu_c.o: .\System\sys\stm32f10x_conf.h
+.\output\os_cpu_c.o: .\System\sys\stm32f10x_type.h
+.\output\os_cpu_c.o: .\System\sys\cortexm3_macro.h
+.\output\os_cpu_c.o: .\System\sys\stm32f10x_nvic.h

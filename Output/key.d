@@ -1,0 +1,9 @@
+.\output\key.o: HardWare\key.c
+.\output\key.o: HardWare\key.h
+.\output\key.o: .\System\sys\sys.h
+.\output\key.o: .\System\sys\stm32f10x_map.h
+.\output\key.o: .\System\sys\stm32f10x_conf.h
+.\output\key.o: .\System\sys\stm32f10x_type.h
+.\output\key.o: .\System\sys\cortexm3_macro.h
+.\output\key.o: .\System\sys\stm32f10x_nvic.h
+.\output\key.o: .\System\delay\delay.h

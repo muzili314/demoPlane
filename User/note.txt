@@ -1,0 +1,26 @@
+/***********************************************************************************************
+Ucosii 相关：
+*Declare:
+*OS_MAX_TASKS              10u 
+*OS_TICKS_PER_SEC          200u     系统节拍  1000/200 = 5ms
+*在sys.h中  #define SYSTEM_SUPPORT_UCOS		1	 以支持ucos
+*将ucosii-Core 中的ucosii.c 去掉 否则会造成大量的重复定义
+*在os_cfg.h中配置TMR相关参数
+* #define OS_TMR_EN                  1u        Enable (1) or Disable (0) code generation for TIMERS         
+* #define OS_TMR_CFG_MAX            16u        Maximum number of timers                                 
+* #define OS_TMR_CFG_NAME_EN         1u        Determine timer names                                    
+* #define OS_TMR_CFG_WHEEL_SIZE      8u        Size of timer wheel (#Spokes)                            
+* #define OS_TMR_CFG_TICKS_PER_SEC 100u        定时器的时钟接节拍 10ms        1000/100
+* #define OS_TASK_TMR_PRIO		     0u        软件定时器的优先级,设置为最高   
+
+ucosii 的软件定时器
+
+*************************************************************************************************/
+创建MainTask  用于处理来自串口屏的信息
+        1.start button  恢复MotorTask任务
+		2.stop button   挂起MotorTask
+创建MotorTask任务并挂起
+软件定时器tmr1 用于刷新串口屏
+
+bug:
+1.uart2 3 发送的第二个字符会丢失

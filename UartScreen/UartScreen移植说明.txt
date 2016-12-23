@@ -1,0 +1,43 @@
+/*串口屏相关头文件*/
+#include "hmi_driver.h"
+#include "cmd_queue.h"
+#include "cmd_process.h"
+#include "stdio.h"
+
+
+hmi_driver.h 与 hmi_driver.c 对应 其中包含串口屏驱动文件
+cmd_queue.h  与 cmd_queue.c  对应 使串口获得的消息入队 和处理
+cmd_process.h与 cmd_process.c对应 根据消息类型做相应处理
+需要在uart.c 文件中添加 
+void SendChar(u8 ch)
+{
+	USARTx->DR = ch;
+	while(((USARTx->SR & (1<<6)) == 0));//waitting for transfer complete
+}
+
+需要在main中添加的代码：
+
+qsize  size = 0; //qsize 在cmd_queue.h中定义 typedef unsigned short qsize;
+/*initial uart */
+uart_init(72,115200);
+/*clear buffer*/
+queue_reset();
+/*waitting for uaartScreen init complete*/
+delay_ms(300);
+
+while(1)
+{
+   /*从缓冲区读取一条指令*/
+	size = queue_find_cmd(cmd_buffer,CMD_MAX_SIZE);    //cmd_buffer[CMD_MAX_SIZE];在 cmd_process.c中定义
+	if(size>0)//接收到指令
+	{
+		ProcessMessage((PCTRL_MSG)cmd_buffer, size);//指令处理
+	}
+	/*数据有更新是每100ms刷新一次  可改用定时器 或ucos 的软件定时器*/
+	if(update_en&&timer_tick_count-timer_tick_last_update>=TIME_100MS)
+	{
+		update_en = 0;//在 cmd_process.c中定义
+		timer_tick_last_update = timer_tick_count;			
+
+		UpdateUI();
+	}

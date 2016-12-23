@@ -1,0 +1,9 @@
+.\output\motor.o: HardWare\motor.c
+.\output\motor.o: HardWare\motor.h
+.\output\motor.o: .\System\sys\sys.h
+.\output\motor.o: .\System\sys\stm32f10x_map.h
+.\output\motor.o: .\System\sys\stm32f10x_conf.h
+.\output\motor.o: .\System\sys\stm32f10x_type.h
+.\output\motor.o: .\System\sys\cortexm3_macro.h
+.\output\motor.o: .\System\sys\stm32f10x_nvic.h
+.\output\motor.o: D:\Keil\ARM\ARMCC\bin\..\include\math.h

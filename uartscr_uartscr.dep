@@ -1,0 +1,417 @@
+Dependencies for Project 'uartscr', Target 'uartscr': (DO NOT MODIFY !)
+F (.\User\main.c)(0x57DE7370)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (.\System\delay\delay.h)(0x50436849)
+I (.\System\usart\usart.h)(0x571311CC)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (User\task.h)(0x57CD592E)
+I (User\msg.h)(0x57C95456)
+I (.\UartScreen\hmi_driver.h)(0x57767CFD)
+I (.\HardWare\uart2.h)(0x571C6329)
+I (.\UartScreen\cmd_queue.h)(0x5670C348)
+I (.\UartScreen\cmd_process.h)(0x57C970C6)
+I (.\Malloc\malloc.h)(0x5056D9EA)
+I (.\HardWare\led.h)(0x5704F536)
+I (.\HardWare\key.h)(0x57163DEC)
+I (.\HardWare\timer.h)(0x5788A04D)
+I (.\HardWare\uart3.h)(0x571976C0)
+I (.\HardWare\exit.h)(0x5715C318)
+I (.\HardWare\motor.h)(0x57CA6FD2)
+I (User\machine.h)(0x5736F1D3)
+I (.\HardWare\steer.h)(0x57CABC4E)
+I (D:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+F (.\HardWare\key.c)(0x57163DEC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\key.o --omf_browse .\output\key.crf --depend .\output\key.d)
+I (HardWare\key.h)(0x57163DEC)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (.\System\delay\delay.h)(0x50436849)
+F (.\HardWare\led.c)(0x5704F4D4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\led.o --omf_browse .\output\led.crf --depend .\output\led.d)
+I (HardWare\led.h)(0x5704F536)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\HardWare\timer.c)(0x57BEDEF6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\timer.o --omf_browse .\output\timer.crf --depend .\output\timer.d)
+I (HardWare\timer.h)(0x5788A04D)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (HardWare\led.h)(0x5704F536)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+F (.\HardWare\uart2.c)(0x57BC2A80)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\uart2.o --omf_browse .\output\uart2.crf --depend .\output\uart2.d)
+I (HardWare\uart2.h)(0x571C6329)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (.\User\msg.h)(0x57C95456)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\UartScreen\cmd_queue.h)(0x5670C348)
+I (.\UartScreen\hmi_driver.h)(0x57767CFD)
+I (.\System\delay\delay.h)(0x50436849)
+F (.\HardWare\exit.c)(0x57C97BE5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\exit.o --omf_browse .\output\exit.crf --depend .\output\exit.d)
+I (HardWare\exit.h)(0x5715C318)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (.\System\delay\delay.h)(0x50436849)
+I (HardWare\key.h)(0x57163DEC)
+I (HardWare\led.h)(0x5704F536)
+I (HardWare\motor.h)(0x57CA6FD2)
+F (.\HardWare\motor.c)(0x57CA7707)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\motor.o --omf_browse .\output\motor.crf --depend .\output\motor.d)
+I (HardWare\motor.h)(0x57CA6FD2)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (D:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+F (.\HardWare\uart3.c)(0x571F21A0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\uart3.o --omf_browse .\output\uart3.crf --depend .\output\uart3.d)
+I (HardWare\uart3.h)(0x571976C0)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\HardWare\steer.c)(0x57CABAEC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\steer.o --omf_browse .\output\steer.crf --depend .\output\steer.d)
+I (HardWare\steer.h)(0x57CABC4E)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (.\System\delay\delay.h)(0x50436849)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (D:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (.\User\msg.h)(0x57C95456)
+I (.\HardWare\led.h)(0x5704F536)
+F (.\UartScreen\cmd_process.c)(0x57DE3A16)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\cmd_process.o --omf_browse .\output\cmd_process.crf --depend .\output\cmd_process.d)
+I (UartScreen\cmd_process.h)(0x57C970C6)
+I (UartScreen\hmi_driver.h)(0x57767CFD)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (.\HardWare\uart2.h)(0x571C6329)
+I (.\System\delay\delay.h)(0x50436849)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\User\task.h)(0x57CD592E)
+I (.\System\usart\usart.h)(0x571311CC)
+I (.\HardWare\led.h)(0x5704F536)
+I (.\HardWare\steer.h)(0x57CABC4E)
+I (D:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (.\User\msg.h)(0x57C95456)
+I (.\HardWare\motor.h)(0x57CA6FD2)
+F (.\UartScreen\cmd_queue.c)(0x5703B7CF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\cmd_queue.o --omf_browse .\output\cmd_queue.crf --depend .\output\cmd_queue.d)
+I (UartScreen\cmd_queue.h)(0x5670C348)
+I (UartScreen\hmi_driver.h)(0x57767CFD)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (.\HardWare\uart2.h)(0x571C6329)
+I (.\System\delay\delay.h)(0x50436849)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+F (.\UartScreen\hmi_driver.c)(0x57767709)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\hmi_driver.o --omf_browse .\output\hmi_driver.crf --depend .\output\hmi_driver.d)
+I (UartScreen\hmi_driver.h)(0x57767CFD)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (.\HardWare\uart2.h)(0x571C6329)
+I (.\System\delay\delay.h)(0x50436849)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+F (.\Ucosii\CORE\os_core.c)(0x500F7BBA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\os_core.o --omf_browse .\output\os_core.crf --depend .\output\os_core.d)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\Ucosii\CORE\os_flag.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\os_flag.o --omf_browse .\output\os_flag.crf --depend .\output\os_flag.d)
+I (Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\Ucosii\CORE\os_mbox.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\os_mbox.o --omf_browse .\output\os_mbox.crf --depend .\output\os_mbox.d)
+I (Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\Ucosii\CORE\os_mem.c)(0x500F6FD0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\os_mem.o --omf_browse .\output\os_mem.crf --depend .\output\os_mem.d)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\Ucosii\CORE\os_mutex.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\os_mutex.o --omf_browse .\output\os_mutex.crf --depend .\output\os_mutex.d)
+I (Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\Ucosii\CORE\os_q.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\os_q.o --omf_browse .\output\os_q.crf --depend .\output\os_q.d)
+I (Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\Ucosii\CORE\os_sem.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\os_sem.o --omf_browse .\output\os_sem.crf --depend .\output\os_sem.d)
+I (Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\Ucosii\CORE\os_task.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\os_task.o --omf_browse .\output\os_task.crf --depend .\output\os_task.d)
+I (Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\Ucosii\CORE\os_time.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\os_time.o --omf_browse .\output\os_time.crf --depend .\output\os_time.d)
+I (Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\Ucosii\CORE\os_tmr.c)(0x500F7B58)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\os_tmr.o --omf_browse .\output\os_tmr.crf --depend .\output\os_tmr.d)
+I (Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)()
+F (.\Ucosii\PORT\os_cpu_a.asm)(0x502E657E)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x--list .\output\os_cpu_a.lst --xref -o .\output\os_cpu_a.o --depend .\output\os_cpu_a.d)
+F (.\Ucosii\PORT\os_cpu_c.c)(0x500F73B8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\os_cpu_c.o --omf_browse .\output\os_cpu_c.crf --depend .\output\os_cpu_c.d)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\Ucosii\CONFIG\includes.h)(0x50670699)()
+F (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)()
+F (.\Malloc\malloc.c)(0x5056D9F2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\malloc.o --omf_browse .\output\malloc.crf --depend .\output\malloc.d)
+I (Malloc\malloc.h)(0x5056D9EA)
+F (.\System\delay\delay.c)(0x5705E449)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\delay.o --omf_browse .\output\delay.crf --depend .\output\delay.d)
+I (System\delay\delay.h)(0x50436849)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+F (.\System\sys\sys.c)(0x5705E448)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\sys.o --omf_browse .\output\sys.crf --depend .\output\sys.d)
+I (System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+F (.\System\usart\usart.c)(0x577625F4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\System\delay -I.\System\sys -I.\System\usart -I.\HardWare -I.\Ucosii\CONFIG -I.\Ucosii\CORE -I.\Ucosii\PORT -I.\Malloc -I.\UartScreen -I.\User-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-o .\output\usart.o --omf_browse .\output\usart.crf --depend .\output\usart.d)
+I (.\System\sys\sys.h)(0x5712446B)
+I (.\System\sys\stm32f10x_map.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_conf.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_type.h)(0x4A0282C6)
+I (.\System\sys\cortexm3_macro.h)(0x4A0282C6)
+I (.\System\sys\stm32f10x_nvic.h)(0x4A0282C6)
+I (System\usart\usart.h)(0x571311CC)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (.\Ucosii\CONFIG\includes.h)(0x50670699)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (.\Ucosii\CORE\ucos_ii.h)(0x500F7C16)
+I (.\Ucosii\CONFIG\os_cfg.h)(0x572C5705)
+I (.\Ucosii\PORT\os_cpu.h)(0x502E57CA)
+I (.\UartScreen\cmd_queue.h)(0x5670C348)
+I (.\UartScreen\hmi_driver.h)(0x57767CFD)
+I (.\HardWare\uart2.h)(0x571C6329)
+I (.\System\delay\delay.h)(0x50436849)
+F (.\Start\startup_stm32f10x_hd.s)(0x4AF2D936)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x--list .\output\startup_stm32f10x_hd.lst --xref -o .\output\startup_stm32f10x_hd.o --depend .\output\startup_stm32f10x_hd.d)
+F (.\User\note.txt)(0x571997CD)()

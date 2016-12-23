@@ -1,0 +1,12 @@
+.\output\exit.o: HardWare\exit.c
+.\output\exit.o: HardWare\exit.h
+.\output\exit.o: .\System\sys\sys.h
+.\output\exit.o: .\System\sys\stm32f10x_map.h
+.\output\exit.o: .\System\sys\stm32f10x_conf.h
+.\output\exit.o: .\System\sys\stm32f10x_type.h
+.\output\exit.o: .\System\sys\cortexm3_macro.h
+.\output\exit.o: .\System\sys\stm32f10x_nvic.h
+.\output\exit.o: .\System\delay\delay.h
+.\output\exit.o: HardWare\key.h
+.\output\exit.o: HardWare\led.h
+.\output\exit.o: HardWare\motor.h
